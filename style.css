@@ -1,19 +1,48 @@
 :root{
-    --black: #011212;
-    --orange: #ff8800;
-    --width: 100px;
-    --height: 100px;
-    --radius: 50px;
+    --color_border:  rgb(207, 203, 203);
 }
 
-body {
-    background-color: var(--black);
+img{
+    position: relative;
+    top: 2.5em;
 }
 
-.ball {
-    width: var(--width);
-    height: var(--height);
-    background-color: var(--orange);
-    border-radius: var(--radius);
+
+.Image{
+    text-align: center ;
+    color: white;
+    font-size: large;
+    width: auto;
+    height: 130px;
+    margin: 0.1%;
+    background-color: rgb(140, 148, 155);
 }
 
+section{
+    border-color: var(--color_border);
+    border-style: solid;
+    border-width: 1px;
+    width: 20%;
+}
+
+h1{
+    font-size: large;
+}
+
+.border{
+    border-bottom-color: var(--color_border);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.margin{
+    margin: 5%;
+}
+
+a{
+    color: rgb(28, 28, 248);
+}
+
+.ancor{
+    padding-left:5px;
+}
