@@ -1,0 +1,61 @@
+:root{
+    --white: white;
+}
+
+nav{
+    height: 3.8em;
+    background-color: rgb(48, 46, 46);
+    width: 50em;
+}
+
+form{
+    position: relative;
+    top : 10%;
+    left: 15px;
+}
+
+.left{
+    padding-left: 8%;
+}
+
+span{
+    padding-left: 1%;
+}
+
+.color{
+    color: var(--white);
+    font-size: large;
+}
+
+.text{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: var(--white);
+}
+
+.submit{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: green;
+    color: green;
+    background-color:  rgb(48, 46, 46);
+    font-size: large;
+}
+
+div{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.disable-link {
+    pointer-events: none;
+    color: gray;
+}
