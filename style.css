@@ -3,6 +3,7 @@
     --orange: #ff8800;
     --width: 100px;
     --height: 100px;
+    --radius: 50px;
 }
 
 body {
@@ -13,6 +14,6 @@ body {
     width: var(--width);
     height: var(--height);
     background-color: var(--orange);
-    border-radius: 50px;
+    border-radius: var(--radius);
 }
 
