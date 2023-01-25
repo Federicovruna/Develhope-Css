@@ -12,8 +12,6 @@ section{
 .zero{
     color: white;
     background-color: rgb(53, 52, 52);
-    /* border-color: red; */
-    /* border-radius: 15% 15% 0% 0%; */
     font-size: xx-large;
     grid-column: span 4;
     justify-content: right;
