@@ -1,0 +1,43 @@
+
+section{
+    font-size: x-large;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 5%;
+    height: 360px;
+    width: 350px;
+}
+
+.zero{
+    color: white;
+    background-color: rgb(53, 52, 52);
+    /* border-color: red; */
+    /* border-radius: 15% 15% 0% 0%; */
+    font-size: xx-large;
+    grid-column: span 4;
+    justify-content: right;
+    align-items: center;
+}
+
+.equal{
+    background-color: rgb(255, 112, 112);
+    grid-column-start: 4;
+    grid-row: 3/7;
+}
+
+
+div{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.zero span{
+    margin-right: 10px;
+}
+
+.color{
+    background-color: rgb(170, 170, 190);
+}
