@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 25%;
+    gap:10px
+}
+
+.Section_1{
+    grid-column: 1/2;
+}
+.Section_2{
+    grid-column: 2/3;
+}
+.Section_3{
+    grid-column: 3/4;
+}
+
+section{
+    margin:2%;
+}
+
+.Card{
+    width: 250px;
+    height: 380px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(156, 156, 156), rgb(221, 220, 220));
+}
+
+.Card__header{
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+    height: 2.5rem;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.Card__header__presentation--circle{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+img{
+    height: 180px;
+    width: 250px;
+}
+
+.Card__header__presentation{
+    display: flex;
+    flex-direction: row;
+}
+
+.Card__header__presentation__name{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-left: 7px;
+}
+
+.Card__header__presentation__name--name{
+    font-size: small;
+}
+
+.Card__header__presentation__name--date{
+    color: white;
+    font-size: xx-small;
+}
+
+.Card__header__point{
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Card__description__icon > img{
+    margin-left: 5px;
+    display: inline-block;
+    height: 15px;
+    width: auto;
+}
+
+.Card__description{
+    margin: 10px;
+}
+
+.Card__description__text{
+    font-size: small;
+}
+.Card__description__text--name{
+    font-weight: bold;
+}
+
+
+@media(max-width: 768px){
+    body{
+        margin:10%
+    }
+    .Section_1{
+        grid-column: 1/2;
+    }
+    .Section_2{
+        grid-column: 2/3;
+    }
+    .Section_3{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+}
+
+@media(max-width: 375px){
+    .Section_1{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .Section_2{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .Section_3{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}
